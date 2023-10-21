@@ -1,0 +1,9 @@
+[25-Jun-2023 01:06:03 America/Chicago] PHP Warning:  require(/home1/openhousearchite/public_html/vendor/composer/../../app/Helper/helpers.php): Failed to open stream: No such file or directory in /home1/openhousearchite/public_html/vendor/composer/autoload_real.php on line 41
+[25-Jun-2023 01:06:03 America/Chicago] PHP Warning:  require(/home1/openhousearchite/public_html/vendor/composer/../../app/Helper/helpers.php): Failed to open stream: No such file or directory in /home1/openhousearchite/public_html/vendor/composer/autoload_real.php on line 41
+[25-Jun-2023 01:06:03 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/openhousearchite/public_html/vendor/composer/../../app/Helper/helpers.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home1/openhousearchite/public_html/vendor/composer/autoload_real.php:41
+Stack trace:
+#0 /home1/openhousearchite/public_html/vendor/composer/autoload_real.php(45): ComposerAutoloaderInitcbdcf63998e7bacd010bc3db75836049::{closure}('1f9e54d362959b6...', '/home1/openhous...')
+#1 /home1/openhousearchite/public_html/vendor/autoload.php(25): ComposerAutoloaderInitcbdcf63998e7bacd010bc3db75836049::getLoader()
+#2 /home1/openhousearchite/public_html/index.php(34): require('/home1/openhous...')
+#3 {main}
+  thrown in /home1/openhousearchite/public_html/vendor/composer/autoload_real.php on line 41

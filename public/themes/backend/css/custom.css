@@ -1,0 +1,29 @@
+.img-thumbnail {
+    background-color: #fff !important;
+}
+.block__list {
+    padding: 0;
+    width: 100%;
+}
+.block__list li {
+    width: 9.8%;
+    list-style: none;
+    cursor: move;
+}
+@media (max-width: 767px) {
+    .block__list li {
+        width: 49%;
+    }
+}
+.block__list_tags li {
+    display: inline-block;
+    text-align: center;
+}
+.btnRemoveImage {
+    color: red !important;
+    cursor: pointer !important;
+}
+
+.block__list img {
+    height: 100px;
+}
